@@ -28,7 +28,8 @@ set -g status-right-bg colour233
 set -g status-right-fg colour243
 set -g status-right-length 150
 #set -g status-right "#[fg=colour235,bg=green]#[fg=colour240,bg=colour235] %H:%M:%S #[fg=colour240,bg=colour235]#[fg=colour233,bg=colour240] %d-%b-%y #[fg=colour245,bg=colour240]#[fg=colour232,bg=colour245,bold] #H "
-set -g status-right "#[fg=colour235,bg=green]#[fg=colour240,bg=colour235] %H:%M #[fg=colour240,bg=colour235]#[fg=colour233,bg=colour240] %d-%b-%y #[fg=colour245,bg=colour240]#[fg=colour232,bg=colour245,bold] #H "
+#set -g status-right "#[fg=colour235,bg=green]#[fg=colour240,bg=colour235] %H:%M #[fg=colour240,bg=colour235]#[fg=colour233,bg=colour240] %d-%b-%y #[fg=colour245,bg=colour240]#[fg=colour232,bg=colour245,bold] #H "
+set -g status-right "#[fg=colour235,bg=green]#[fg=colour240,bg=colour235] %H:%M #[fg=colour240,bg=colour235]#[fg=colour233,bg=colour240] %d-%b-%y #[fg=colour245,bg=colour240]#[fg=colour232,bg=colour245,bold] #H #[fg=green,bg=colour245]#[bg=green]   "
 
 # Window status
 set -g window-status-format " #I:#W#F "
